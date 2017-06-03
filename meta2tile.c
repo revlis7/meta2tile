@@ -1055,7 +1055,7 @@ int main(int argc, char **argv)
         source, 
         mbtiles ? (shape ? "mbtiles files defined in shape file" : "mbtiles file") 
           : zip ? (shape ? "zip files defined in shape file" : "zip file") 
-                : (shape ? "directories defined in shape file" : "directoy"), 
+                : (shape ? "directories defined in shape file" : "directory"), 
         target);
 
     gettimeofday(&start, NULL);
